@@ -3,7 +3,7 @@ import Modal from './Modal';
 import cross from '../assets/img/cross.svg'
 
 import projects from '../data/projects';
-  
+import '../styling/Portfolio.css'
 class Portfolio extends Component {
  constructor() {
      super();

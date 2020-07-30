@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
   
-  
+import '../styling/Masterhead.css';
   
 class Masterhead extends Component {
  

@@ -1,9 +1,10 @@
 import React from 'react';
 import close from '../assets/img/close-icon.svg'
+
+import '../styling/Modal.css';
+
 function Modal(props) {
     const { projects } = props
-
-    
 
     return ( 
     //Modal 1

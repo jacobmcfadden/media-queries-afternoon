@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import cart from '../assets/img/shoppingCart.svg'
 import lock from '../assets/img/lockIcon.svg'
 import comp from '../assets/img/laptopIcon.svg'
-  
+
+import '../styling/Services.css';
   
 class Services extends Component {
  

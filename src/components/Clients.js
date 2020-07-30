@@ -4,7 +4,8 @@ import envatoLogo from '../assets/img/logos/envato.jpg';
 import designmodeLogo from '../assets/img/logos/designmodo.jpg';
 import themeforestLogo from '../assets/img/logos/themeforest.jpg';
 import creativeMarketLogo from '../assets/img/logos/creative-market.jpg';
-  
+
+import '../styling/Clients.css';
 class Clients extends Component {
  
   render() {
