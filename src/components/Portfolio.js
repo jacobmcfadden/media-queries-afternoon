@@ -36,7 +36,7 @@ closeModal= () => {
             <div className="portfolio-item">
                 <div className="portfolio-link" onClick={(e) => {this.openModal(index)}}>
                     <div className="portfolio-hover">
-                    <img  width="60px" src={cross} />
+                    <img  width="60px" src={cross} alt="plus sign"/>
                         <div className="portfolio-hover-content"></div>
                     </div>
                     <img className="img-fluid" src={elem.thumbImage} alt="" />

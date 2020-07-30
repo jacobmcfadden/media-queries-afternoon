@@ -37,7 +37,7 @@ class Navbar extends Component {
 }
 
   render() {
-      console.log(this.state.transform)
+     
      return ( 
         // Navbar
         <nav className={ this.state.transform ? "navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" : "navbar navbar-expand-lg navbar-dark fixed-top" } id="mainNav">
