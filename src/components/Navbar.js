@@ -43,17 +43,17 @@ class Navbar extends Component {
         <nav className={ this.state.transform ? "navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" : "navbar navbar-expand-lg navbar-dark fixed-top" } id="mainNav">
         <div className="container">
             <a className="navbar-brand" href="#page-top"><img src={logo} alt="" /></a>
-            <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" onClick={this.toggleMenu}>
+            <button className="navbar-toggler navbar-toggler-right" type="button"  onClick={this.toggleMenu}>
                <span className="row mx-1">Menu<img  className="ml-1" width="10px" src={hamburger} alt="" /></span> 
             </button>
           
                 <div className={ this.state.menuVisible ? "navbar-collapse" : "collapse navbar-collapse" } id="navbarResponsive">
                 <ul className="navbar-nav text-uppercase ml-auto">
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#services" onClick={this.toggleMenu}>Services</a></li>
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#portfolio" onClick={this.toggleMenu}>Portfolio</a></li>
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about" onClick={this.toggleMenu}>About</a></li>
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#team" onClick={this.toggleMenu}>Team</a></li>
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#contact" onClick={this.toggleMenu}>Contact</a></li>
+                    <li className="nav-item"><a className="nav-link" href="#services" onClick={this.toggleMenu}>Services</a></li>
+                    <li className="nav-item"><a className="nav-link" href="#portfolio" onClick={this.toggleMenu}>Portfolio</a></li>
+                    <li className="nav-item"><a className="nav-link" href="#about" onClick={this.toggleMenu}>About</a></li>
+                    <li className="nav-item"><a className="nav-link" href="#team" onClick={this.toggleMenu}>Team</a></li>
+                    <li className="nav-item"><a className="nav-link" href="#contact" onClick={this.toggleMenu}>Contact</a></li>
                     
                 </ul>
             </div>
